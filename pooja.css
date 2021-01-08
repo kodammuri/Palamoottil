@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+    }
+
+    .menu ul{
+        display: inline-flex;
+        margin: 10px;
+    }
+    .menu ul li{
+        list-style: none;
+        margin: 0 20px;
+        color: #fff9f9;
+        cursor: pointer;
+    }
+    
+    a:link {
+      color: green;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:visited {
+      color: pink;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    a:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-image: url(img16.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .msg-container{
+        width: 600px;
+        height: 280px;
+        position:absolute;
+        left: 14%;
+        top: 57%;
+        transform: translateY(-50%);
+        overflow: hidden;
+    }
+    #slider{
+        display: inline-flex;
+        transition: 0.5s;
+    }
+    .msg-col{
+        width: 600px;
+        height: 280px;
+    }
+    .msg-col h1{
+        color: #fff;
+        font-size: 30px;
+        font-weight: 100;
+        margin: 10px 0;
+    }
+    
+    .msg-col p{
+        color: #ddd;
+        font-size: 15px;
+        line-height: 25px;
+
+    }
+    .msg-col a{
+        display: inline-block;
+        text-decoration: none;
+        color: #555;
+        background: #fff;
+        font-size: 15px;
+        padding: 10px 35px;
+        border-radius: 30px;
+        margin-top: 25px;
+
+
+    }
+    .controller{
+        width: 1px;
+        height: 320px;
+        display: block;
+        background: #c0c0c0;
+        position: absolute;
+        top: 55%;
+        right: 0px;
+        transform: translateY(-50%);
+    }
+    #line1,#line2,#line3{
+        height: 80px;
+        width: 10px;
+        cursor: pointer;
+        transform: translateX(-50%);
+    }
+    #active{
+        width: 5px;
+        height: 80px;
+        border-radius: 10px;
+        background: #fff;
+        position: absolute;
+        top: 0;
+        transform: translateX(-50%);
+        transition: 0.5s;
+    }
