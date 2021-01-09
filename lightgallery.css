@@ -1,0 +1,55 @@
+body{
+    font-family: sans-serif;
+}
+
+.gallery{
+    margin: 100px 100px;
+
+}
+.gallery img{
+    width: 230px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.gallery img:hover{
+    filter: grayscale(0);
+}
+.menu ul{
+    width: 100%;
+    padding: 20px;
+position: fixed;
+top: 0px;
+transition: .5s;
+    }
+.menu ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 20px;
+    color: #fff9f9;
+    cursor: pointer;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
